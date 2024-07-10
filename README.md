@@ -1,7 +1,14 @@
+# Web Application Deployment with Vagrant and Linux
+
+This project demonstrates the deployment of a web application using Vagrant and Linux. The application stack includes Nginx as the web server, Tomcat as the application server, RabbitMQ for messaging, and Memcache for caching.
+
 # Prerequisites
 - JDK 11 
 - Maven 3 
 - MySQL 8
+- Vagrant
+- VirtualBox or another Vagrant-supported provider
+- Git (optional, for cloning this repository)
 
 # Technologies 
 - Spring MVC
@@ -21,17 +28,6 @@ sql dump file:
 - /src/main/resources/db_backup.sql
 - db_backup.sql file is a mysql dump file.we have to import this dump to mysql db server
 - mysql -u <user_name> -p accounts < db_backup.sql
-
-
-# Web Application Deployment with Vagrant and Linux
-
-This project demonstrates the deployment of a web application using Vagrant and Linux. The application stack includes Nginx as the web server, Tomcat as the application server, RabbitMQ for messaging, and Memcache for caching.
-
-## Prerequisites
-
-- Vagrant
-- VirtualBox or another Vagrant-supported provider
-- Git (optional, for cloning this repository)
 
 ## Getting Started
 
