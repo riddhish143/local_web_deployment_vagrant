@@ -37,8 +37,8 @@ This project demonstrates the deployment of a web application using Vagrant and 
 
 1. **Clone the Repository (optional):**
    ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/riddhish143/local_web_deployment_vagrant.git
+   cd local_web_deployment_vagrant-repo
    ```
 
 2. **Start the Vagrant Environment:**
